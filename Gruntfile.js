@@ -91,7 +91,7 @@ module.exports = function(grunt) {
                        	'assets/js/vendor/responsive-nav.js',
 								'assets/js/vendor/imagesloaded.pkgd.min.js',
 								'assets/js/vendor/jquery.fitvids.js',
-								'assets/js/vendor/modernizr-2.6.2.min.js',
+								// 'assets/js/vendor/modernizr.custom.36143.js',
 								'assets/js/vendor/picturefill.js'
 								// 'assets/js/vendor/yourplugin/yourplugin.js',
                     ]
