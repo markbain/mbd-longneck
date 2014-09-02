@@ -28,11 +28,11 @@ get_header(); ?>
 
 		<div class="hero-header section">
 			<div class="container">			
-				<h1>Friendly websites for interesting people.</h1>
-				<h3>I design & build bespoke websites for individuals, small businesses & start-ups.</h3> 
+				<h1 class="wow fadeInLeft">Friendly websites for interesting people.</h1>
+				<h3 class="wow fadeInRight">I design & build bespoke websites for individuals, small businesses & start-ups.</h3> 
 				<div class="hero-cta">
-					<div><a href="<?php bloginfo( 'url' ); ?>/contact" class="cta button cta-primary">Arrange a chat now <i aria-hidden="true" class="icon-arrow-right"></i></a></div>
-					<div><a href="<?php bloginfo( 'url' ); ?>/portfolio" class="cta button cta-secondary">Check out my work <i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+					<div class="wow fadeInLeft"><a href="<?php bloginfo( 'url' ); ?>/contact" class="cta button cta-primary">Arrange a chat now <i aria-hidden="true" class="icon-arrow-right"></i></a></div>
+					<div class="wow fadeInRight"><a href="<?php bloginfo( 'url' ); ?>/portfolio" class="cta button cta-secondary">Check out my work <i aria-hidden="true" class="icon-arrow-right"></i></a></div>
 				</div>
 
 

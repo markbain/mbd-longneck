@@ -5,7 +5,7 @@
 		<div class="hero-header">
 		
 
-			<div class="hero-image">
+			<div class="hero-image wow fadeInRight">
 				<a href="<?php the_permalink(); ?>" class="media__img">
 					<?php 
 						if ( has_post_thumbnail() ) { 
@@ -14,7 +14,7 @@
 					?>
 				</a>
 			</div>  
-			<div class="hero-text">
+			<div class="hero-text wow fadeInLeft">
 				<h1><?php the_title(); ?></h1>
 				<h5 class="sub-hero"><?php the_excerpt(); ?></h5>
 			<div class="hero-cta">
