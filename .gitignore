@@ -4,9 +4,6 @@ node_modules
 *~
 *.swp
 style.css
-assets/js/main.min.js
-assets/js/main.min.map
-assets/js/plugins.min.js
-assets/js/plugins.min.map
+assets/js/*.min.js
+assets/js/*.min.map
 assets/styles/build/
-test/
