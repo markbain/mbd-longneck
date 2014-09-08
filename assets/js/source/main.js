@@ -36,6 +36,8 @@ jQuery( document ).ready( function( $ ) {
  *
  */
 
+jQuery( document ).ready( function( $ ) {
+
 // grab an element
 var myElement = document.querySelector(".site-header");
 // construct an instance of Headroom, passing the element
@@ -54,6 +56,9 @@ var headroom  = new Headroom(myElement, {
 headroom.init();
 
 (function($) {
+
+});
+
 /*
 ===============================================
 		
@@ -71,27 +76,7 @@ jQuery( document ).ready( function( $ ) { // Wrap all scripts in this
   });
 
 }); // Wrap all scripts in thi
-/*
-=====================================================
-		
-		Back to top scrolling
-	
-=====================================================
-*/		
 
-jQuery(document).ready(function($) { // Wrap all scripts in this
-
-	$(document).ready(function(){
-		// scroll body to 0px on click
-		$('#back-to-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
-	});
-
-});
 
 })(jQuery);
 
@@ -157,4 +142,26 @@ jQuery(document).ready(function($) { // Wrap all scripts in this
 
 jQuery(document).ready(function($) { // Wrap all scripts in this
 	new WOW().init();
+});
+
+/*
+=====================================================
+		
+		Back to top scrolling
+	
+=====================================================
+*/		
+
+jQuery(document).ready(function($) { // Wrap all scripts in this
+
+	$(document).ready(function(){
+		// scroll body to 0px on click
+		$('#back-to-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
 });
