@@ -1,4 +1,5 @@
 'use strict';
+
 module.exports = function(grunt) {
 
     // load all grunt tasks matching the `grunt-*` pattern
@@ -159,5 +160,6 @@ module.exports = function(grunt) {
 
     // register task
     grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'uglify', 'watch']);
+	 grunt.loadNpmTasks('grunt-notify'); 
 
 };
