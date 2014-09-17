@@ -23,4 +23,37 @@
 
 // Place any jQuery/helper plugins in here.
 
+jQuery(document).ready(function($) { // Wrap all scripts in this
 
+/*
+	
+	Masonry
+	
+*/
+
+
+		// initialize Masonry
+
+		$container = $('.masonrycontainer').masonry({
+			columnWidth: '.grid-sizer',
+			gutter: '.gutter-sizer',
+			itemSelector: "article"
+		
+		});
+		
+		// layout Masonry again after all images have loaded
+		
+		$container.imagesLoaded( function() {
+		$container.masonry();
+		});
+
+		
+
+/*
+	
+	Sources:
+		http://web.admcomputing.co.uk/masonry/sample-page/
+		http://masonry.desandro.com/appendix.html
+	
+*/
+}); // end Wrap all scripts in this
